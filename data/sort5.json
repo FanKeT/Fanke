@@ -1,0 +1,38 @@
+[
+    {
+        "Id": 10428,
+        "ParentId": 10426,
+        "TypeLevel": "2",
+        "TypeName": "帆布鞋",
+        "Path": "0->10426->10428",
+        "SortNum": 10428,
+        "FullName": "女鞋->帆布鞋",
+        "CateID": "28119",
+        "Parameters": null,
+        "KeyWord": "",
+        "Attributes": null,
+        "SortType": null,
+        "FilterQuery": "",
+        "IconName": "",
+        "Logo": "http://p3.vanclimg.com/product/6/3/7/6375861/mid/6375861-1j201702271522221122.jpg",
+        "Version": 1
+    },
+    {
+        "Id": 10429,
+        "ParentId": 10426,
+        "TypeLevel": "2",
+        "TypeName": "休闲鞋",
+        "Path": "0->10426->10429",
+        "SortNum": 10429,
+        "FullName": "女鞋->休闲鞋",
+        "CateID": "",
+        "Parameters": null,
+        "KeyWord": "女款休闲鞋",
+        "Attributes": null,
+        "SortType": null,
+        "FilterQuery": "",
+        "IconName": "",
+        "Logo": "http://i6.m.vancl.com/oms/2016_11_2_10_34_32_6995_400x400.jpg",
+        "Version": 1
+    }
+]

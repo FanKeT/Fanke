@@ -1,0 +1,170 @@
+#box{
+	width: 10.0rem;
+	height: 16.40625rem;
+	margin: 0 auto;
+	background-color: #F0EFF5;
+	overflow-y: scroll;
+
+	
+}
+#Top{
+	height: 1.49rem;
+	background-color: #B81B22;
+	
+}
+
+#Top h3{
+	color: white;
+	text-align: center;
+	line-height: 1.49rem;
+	font-weight: 300;
+		/*background-size: 0.622951rem 0.622951rem;*/
+		letter-spacing: 0.035574rem;
+	
+}
+#Top img{
+	position: absolute;
+	left:0.625rem;
+	top: 0.3125rem;
+	
+}
+
+#my_xx{
+	position: relative;
+	height: 5.46875rem;
+	background: url(/my/imgs/uc-topbgd.png) no-repeat;
+	background-size : 10.0rem 6.6875rem;
+	overflow-y:scroll;
+
+
+}
+#my_xx #my_sz{
+	position: absolute;
+	top: 0.3125rem;
+	right:0.3125rem;
+}
+
+#tx #one{
+	border-radius: 50%;
+
+}
+#tx{
+	width: 2.1875rem;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.78125rem;
+}
+#tx span{
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+#tx #two{
+	width: 1.875rem;
+	height: 0.5625rem;
+}
+
+#one,#two{
+	margin-top:0.375rem;
+}
+#my_xx{
+	text-align: center;
+	/*margin-top: 0.3125rem;*/
+}
+#my_xx a{
+	color: white;
+	margin: 0 0.703125rem;
+}
+
+.menu{
+	height: 3.34375rem;
+	background-color: white;
+	margin-top: 0.3125rem;
+	/*border-bottom: 0.015625rem solid red;*/
+}
+.menu p{
+	height: 1.21875rem;
+	line-height: 1.21875rem;
+	border-bottom: 0.03125rem solid #F0EFF5;
+}
+.menu p span{
+	margin-left: 0.3125rem;
+
+}
+
+.menu p img{
+	float: right;
+	margin-top: 0.375rem;
+	margin-right: 0.3125rem; 
+}
+
+  #my_dd {
+      
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 0.40625rem;
+      }
+#my_dd section {
+        margin: 0 1.09375rem;
+}
+
+#my_fw{
+	height: 8.4375rem;
+	margin-top: 0.3125rem;
+	background-color: white;
+	/*display: flex;*/
+    /*justify-content: space-around;*/
+   
+   flex-wrap: wrap;
+}
+
+        
+#my_fw section{
+	width:2.4375rem ;
+	text-align: center;
+	height: 1.71875rem;
+	align-items: center;
+	float: left;
+	margin:0.5625rem 0;
+	
+}        
+#my_fw #one,#two,#three,#five,#six,#seven,#nine{
+	border-right: 0.015625rem solid #F0EFF5;
+}
+          
+#my_fw p {
+    
+   
+    
+     left: 0.859375rem;
+ 	  text-align: center;
+ 
+  
+}
+
+#my_fw .one{
+	float: left;
+	width: 10.0rem;
+	height: 0.0rem;
+	border: 0.015625rem solid #F0EFF5;
+}
+#tien p{
+	margin-top: 0.109375rem;
+}
+#two p{
+	margin-top: 0.03125rem;
+}
+#five p{
+	margin-top: 0.1875rem;
+}
+#six p{
+	margin-top: 0.078125rem;
+}
+
+
+.bg5{
+	background:url(../../common/imgs/active5.jpg);
+	background-size: 0.625rem 1.09375rem;
+}
+

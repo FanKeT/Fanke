@@ -1,0 +1,17 @@
+
+
+
+
+.tuijian li{
+	padding:0.15625rem 0.3125rem;
+	float: left;
+	text-align: center;
+	font-size: 0.40625rem;
+	color: #b6b6b6;
+}
+
+.tuijian li img{
+	width: 1.75rem;
+	height: 1.75rem;
+	overflow: hidden;
+}

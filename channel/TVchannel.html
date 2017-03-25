@@ -1,0 +1,25 @@
+ 
+	<link rel="stylesheet" type="text/css" href="channel/css/TVchannel.css">
+	<header>
+		<a href="#"><img src="channel/imgs/left1.jpg"></a>
+		<p>TV频道</p>
+	</header>
+	<div class="box">
+		<div class="banner">
+			<img src="channel/imgs/2017_3_13_23_44_20_735.jpg">
+		</div>
+		<div class="main">
+			<div class="main_p">
+				<p>凡客T恤 <span>十二生肖系列</span></p>
+			</div>
+			<figure ng-repeat='item in data' ng-click='showDetail()'>
+				<img ng-src='{{item.img}}'>
+				<figcaption>
+					<p>{{item.name}}</p>
+					<p>预售价:<span>¥{{item.price}}</span> 定金:<span>¥9.00</span></p>
+				</figcaption>
+			</figure>
+		</div>
+	</div>
+	
+

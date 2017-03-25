@@ -1,0 +1,80 @@
+.header{
+	width: 10.0rem;
+	height: 1.25rem;
+	background: #b81c22;
+	/*text-align: center;*/
+	line-height: 1.25rem;
+	color: white;
+}
+.header h3 button{
+	display: inline-block;
+	width: 0.625rem;
+	height: 0.75rem;
+	background: url(/classify/img/left1.jpg) no-repeat;
+	background-size: 0.421875rem 0.6875rem;
+	float: left;
+	margin: 0.3125rem 3.671875rem 0 0.592593rem;
+	text-align: left;
+	border: none;
+}
+
+.paixu{
+	height: 1.640625rem;
+	background: #fff;
+}
+.paixu ul{
+	float: left;
+	display: flex;
+	width: 10.0rem;
+	justify-content:space-around;
+	align-items:center;
+}
+.paixu li{
+	/*color: #616f6f;*/
+	height: 1.09375rem;
+	text-align: center;
+	line-height: 1.25rem;
+}
+
+.paixu .active{
+	background: #cfd5d5;
+}
+
+.main{
+	height: 13.46875rem;
+	background: #f3f4f6;
+	overflow-y:scroll;
+}
+
+.main ul{
+	/*display: flex;*/
+	/*justify-content:space-around;*/
+	/*align-items:center;*/
+	/*flex-wrap:wrap;*/
+}
+.main ul li{
+	width: 4.375rem;
+	text-align: center;
+	margin-bottom: 0.633333rem;
+	float: left;
+	margin-left: 0.546875rem;
+}
+.main li img{
+	width: 3.90625rem;
+	height: 3.90625rem;
+}
+
+.main li p{
+	color: #b81b22;
+}
+.main li p span{
+	color: #909090;
+}
+.main li h3{
+	color: #b81b22;
+}
+
+/*更换路由字体颜色*/
+.fontColor{
+	color: red;
+}

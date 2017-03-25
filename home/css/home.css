@@ -1,0 +1,288 @@
+/*******************top-bar*/
+.top-bar{
+	width: 10.0rem;
+	height: 1.25rem;
+	background-color:#b81b22;
+	position:fixed;
+	display: flex;
+	justify-content: space-around;
+  	align-items: center;
+	top:0;
+	left:0;
+	z-index: 100;
+	position: relative;
+}
+.top-bar .top-left{
+	width: 8.5rem;
+	height: 0.6875rem;
+	border-radius: 0.15625rem;
+	text-indent: 1.03125rem;
+	color:#919191;
+	line-height: normal;
+	border:none;
+	background: url(../imgs/search2.png) no-repeat 0.234375rem center;
+	background-size: 18px  18px;
+	background-color: #ffffff;
+}
+
+.top-bar .top-right img{
+	width: 0.59375rem;
+	height: 0.40625rem;
+}
+
+/***********************content*/
+.content{
+	width: 10.0rem;
+	height: 14.84375rem;
+	/*margin-top:1.25rem;*/
+	overflow: scroll;
+	clear:both;
+}
+/*****************************slider**/
+.swiper-container{
+	width: 10.0rem;
+	height: 6.3125rem;
+}
+.swiper-container img{
+	width: 10.0rem;
+	height: 6.3125rem;
+}
+/**/
+
+.service {
+	width: 10.0rem;
+	height: 1.25rem;
+}
+.service img{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+.recharge{
+	width: 10.0rem;
+	height: 0.78125rem;
+	
+}
+
+.recharge img{
+	width: 10.0rem;
+	height: 0.78125rem;
+}
+.presell{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+.presell img{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+
+/*预售列表*/
+.presell-list{
+	width: 10rem;
+	background-color: #f2f2f2;
+	clear:both;
+	display: flex;
+}
+
+/*.presell-list li{
+	
+	flex-direction: row;
+
+}*/
+
+/*bug怎么调的*/
+.presell-list li{
+	float:left;
+}
+.presell-list img{
+	width:4.85rem;
+	height:9.046875rem;
+	border:2px solid #f2f2f2;
+}
+
+
+
+/*更多精品*/
+.mor-goods{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+.mor-goods img{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+
+.mor-list{
+	width: 10rem;
+}
+/*更多精品列表*/
+.mor-goods{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+
+.mor-list{
+	width: 10rem;
+	background-color: #f2f2f2;
+	clear:both;
+	display: flex;
+}
+
+.mor-list li{
+	float:left;
+}
+.mor-list img{
+	width:4.85rem;
+	height:9.046875rem;
+	border:2px solid #f2f2f2;
+}
+
+/*超值经选区*/
+.choiceness{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+.choiceness img{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+.choiceness-list{
+	width: 10rem;
+	background-color: #f2f2f2;
+	clear:both;
+	display: flex;
+}
+
+.choiceness-list li{
+	float:left;
+}
+.choiceness-list img{
+	width:4.85rem;
+	height:9.046875rem;
+	border:2px solid #f2f2f2;
+}
+/*韩国狗*/
+.Korea{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+.Korea img{
+	width: 10.0rem;
+	height: 1.25rem;
+}
+.Korea-banner {
+	width: 10.0rem;
+	height: 4.84375rem;
+}
+.Korea-banner img{
+	width: 10.0rem;
+	height: 4.84375rem;
+}
+
+.Korea-list{
+	width: 10rem;
+	background-color: #f2f2f2;
+	clear:both;
+	display: flex;
+}
+
+.Korea-list li{
+	float:left;
+}
+.Korea-list img{
+	width:4.85rem;
+	height:7.890625rem;
+	border:2px solid #f2f2f2;
+}
+.load-all{
+	display: block;
+	width: 10.0rem;
+	height: 0.78125rem;
+	background-color: #f2f2f2;
+	color:#8b9ca8;
+	line-height:  0.78125rem;
+	text-align: center;
+}
+
+
+.searchPage{
+	width: 10.0rem;
+	height: 100%;
+	background-color: rgba(30,34,37,0.7);
+	position: absolute;
+	left: 0;
+	top: 1.25rem;
+	z-index: 500;
+	display: none;
+}
+.searchPage .search_top{
+	width: 10.0rem;
+	height: 1.4375rem;
+	border-bottom: 0.03125rem solid white;
+}
+
+.searchPage h3{
+	width: 10.0rem;
+	height: 0.703125rem;
+	line-height: 0.703125rem;
+	text-indent: 0.3125rem;
+	color: #909090;
+	font-size: 0.25rem;
+}
+
+.searchPage ul{
+	width: 10.0rem;
+	height: 0.703125rem;
+	display: flex;
+	justify-content:space-around;
+}
+
+.searchPage ul a{
+	color: white;
+}
+
+.searchPage .search_bottom input{
+	width: 3.59375rem;
+	height: 0.703125rem;
+	outline: none;
+	border: 0.03125rem solid white;
+	background-color: rgba(30,34,37,0.2);
+	color: white;
+	margin: 0.234375rem 0 0 3.21875rem;
+}
+
+/*
+.myhome{
+	background:url(../../common/imgs/active1.jpg);
+	background-size: 0.625rem 1.09375rem;
+}
+
+
+*/
+
+
+.bg1{
+	width: 0.625rem;
+	height: 1.09375rem;
+	line-height: 1.09375rem;
+	background:url(../../common/imgs/active1.jpg);
+	background-size: 0.625rem 1.09375rem;
+}
+
+
+ #goTop{
+ 	width: 1.875rem;
+ 	height: 4.75rem;
+ 	position: fixed;
+ 	left: 7.8125rem;
+ 	bottom: 3.125rem;
+ 	z-index: 100;
+ }
+#goTop img{
+	width: 1.875rem;
+ 	height: 4.75rem;
+}
+
+.homeHeight{
+	float: left;
+}

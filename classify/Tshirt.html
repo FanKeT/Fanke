@@ -1,0 +1,20 @@
+
+		<link rel="stylesheet" href="classify/css/Tshirt.css" />
+	</head>
+	<body>
+		<div class="Tshift">
+			<div class="header">
+				<h3><button type="button" name="button" onclick="history.back()"></button>T恤</h3>
+			</div>
+			<div class="paixu">
+				<ul>
+					<li ui-sref="Tshirt.newGood" ng-class="{ true : 'fontColor', false : '' }[rootColorShow1]">新品</li>
+					<li ui-sref="Tshirt.sales" ng-class="{ true : 'fontColor', false : '' }[rootColorShow2]">销量</li>
+					<li ui-sref="Tshirt.sales" ng-class="{ true : 'fontColor', false : '' }[rootColorShow]">价格</li>
+					<li ui-sref="Tshirt.sales" ng-class="{ true : 'fontColor', false : '' }[rootColorShow]">好评</li>
+				</ul>
+			</div>
+			<div class="main" ui-view>
+				
+			</div>
+		</div>

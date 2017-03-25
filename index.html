@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="libs/reset.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src='libs/jquery.js'></script>
+	<script type="text/javascript" src='libs/flexible.js'></script>
+	<script type="text/javascript" src='libs/angular.js'></script>
+	<script type="text/javascript" src='libs/angular-ui-router.js'></script>
+	<script type="text/javascript" src="./home/lib/swiper-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./home/lib/flexible.js" ></script>	
+	<title>凡客</title>
+</head>
+<body ng-app='fanKe'class='clear'>
+	<div ui-view class="homeHeight"></div>
+	<!--rootIsNavShow是一个全局变量 控制nav是否存在  -->
+	<div class="nav" ng-show='rootIsNavShow'>
+			<a ui-sref='home'><span  class="fanke"></span></a>
+			<a ui-sref='classify'><span  class="sort"></span></a>
+			<a ui-sref='channel'><span class="pindao"></span></a>
+			<a ui-sref='car'><span class="cart"></span></a>
+			<a ui-sref='logo'><span class="mine"></span></a>
+	</div> 
+
+	<script type="text/javascript">
+		// 获取应用程序
+		var app = angular.module('fanKe',['ui.router'])
+	
+	</script>
+	<script type="text/javascript" src='router.js'></script>
+	<script type="text/javascript" src="services.js"></script>
+	<script type="text/javascript" src= 'factorys.js'></script>
+	<script type="text/javascript" src="./home/js/home.js"></script>
+	<script type="text/javascript" src='./classify/js/classify.js'></script>
+	<script type="text/javascript" src='./classify/js/tuijian.js'></script>
+	<script type="text/javascript" src='./channel/js/Tvchannel.js'></script>
+	<script type="text/javascript" src='./channel/js/channel.js'></script>
+	<script type="text/javascript" src='./my/js/my.js'></script>
+	<script type="text/javascript" src= './classify/js/nanzhuang.js'></script>
+	<script type="text/javascript" src= './classify/js/Tshirt.js'></script>
+	<script type="text/javascript" src= './goodDetail/js/goodDetail.js'></script>
+	<script type="text/javascript" src= './car/js/car.js'></script>
+	<script type="text/javascript" src= './my/js/log.js'></script>
+	<script type="text/javascript" src= './classify/js/sales.js'></script>
+</body>
+</html>

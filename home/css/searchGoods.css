@@ -1,0 +1,134 @@
+.sear-top-bar{
+	width: 10.0rem;
+	height:1.018519rem;
+	background-color: #2e2e2e;
+	vertical-align: middle;
+	display: flex;
+	justify-content: space-around;
+  	align-items: center;
+}
+.sear-top-left{
+	display: inline-block;
+	width: 0.481481rem;
+	height: 0.5rem;
+	background: url(../imgs/callback.jpg);
+	background-size: 0.481481rem   0.5rem;
+}
+.sear-top-center{
+	width: 6.481481rem;
+	height: 0.833333rem;
+	border-radius:0.148148rem;
+	border:none;
+	/*search 没出来 有bug*/
+	background:url(../imgs/search2.png) no-repeat 0.092593rem center;
+	background: url(../imgs/search2.png) no-repeat 0.234375rem center;
+	background-size: 18px  18px;
+	background-color: #ffffff;
+	background:#ffffff;
+	
+}
+.sear-top-right {
+	display: inline-block;
+	color:#ffffff;
+	line-height: 0.833333rem;
+	font-size: 0.425926rem;
+}
+/*热搜条*/
+.hot-search{
+	width: 10.0rem;
+	height: 0.740741rem;
+	border-bottom: 1px solid #151515;
+	background:url(../imgs/hot-bg.jpg) repeat;
+}
+.hot-search p{
+	line-height: 0.759259rem;
+	font-size: 0.37037rem;
+	text-indent: 0.148148rem;
+	color:#ffffff;
+}
+
+.hot-box{
+	width: 10.0rem;
+	height: 15.37037rem;
+	background:#2e2e2e;
+
+}
+/*热搜词条*/
+.hot-words{
+	width: 10.0rem;
+	height: 1.333333rem;
+	/*background:#2e2e2e;*/
+	border-bottom:2px solid #aeafb1;
+}
+
+.hot-words-ul {
+	width: 10.0rem;
+	height: 1.333333rem;
+	line-height:1.333333rem; 
+}
+.hot-words-ul li{
+	float:left;
+
+}
+.hot-words-ul li:nth-child(1){
+	margin:0 0 0 0.425926rem;
+	
+}
+.hot-words-ul li:nth-child(2){
+	margin:0  1.018519rem 0 2.0rem;
+	
+}
+.hot-words-ul li:nth-child(4){
+	margin:0 0.722222rem 0 1.759259rem;
+	
+}
+.hot-words-ul a{
+	color:white;
+}
+
+/*历史搜索*/
+.history{
+	width: 10.0rem;
+	height: 0.962963rem;
+	border-bottom:1px solid black;
+	line-height: 0.962963rem;
+	text-indent: 0.148148rem;
+	color:white;
+}
+/*历史搜索列表*/
+.history-box{
+	width: 10.0rem;
+	/*height: 100%;*/
+}
+.history-list{
+	width: 10.0rem;
+}
+.history-list li{
+	width: 10.0rem;
+	height: 1.351852rem;
+	border-bottom: 1px solid #787878;
+	line-height: 1.351852rem;
+	text-indent: 0.425926rem;
+	color:#ffffff;
+}
+.history-list li:last-child{
+	border-bottom:none;
+}
+.clear-history{
+	width: 3.981481rem;
+	height: 1.296296rem;
+	border:1px solid white;
+	position: absolute;
+	margin-left:2.962963rem;
+	color:white;
+	line-height: 1.296296rem;
+	text-align: center;
+	font-size: 0.407407rem;
+}
+
+
+
+
+
+
+

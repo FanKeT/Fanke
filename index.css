@@ -1,0 +1,74 @@
+.nav{
+	width: 10.0rem;
+	height: 1.359375rem;
+	border-top: 0.03125rem solid #999999;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav a span{
+	display: inline-block;
+	width: 0.625rem;
+	height: 1.09375rem;
+	line-height: 1.09375rem;
+	margin: 0.234375rem 0 0 0
+
+}
+	
+	.fanke{
+		background: url('common/imgs/fanke1.jpg') no-repeat;
+		background-size: 0.625rem 1.09375rem;
+	}
+	.sort{
+		background: url('common/imgs/fanke2.jpg') no-repeat;
+		background-size: 0.625rem 1.09375rem;
+	}
+	.pindao{
+		background: url('common/imgs/fanke3.jpg') no-repeat;
+		background-size: 0.625rem 1.09375rem;
+	}
+	.cart{
+		background: url('common/imgs/fanke4.jpg') no-repeat;
+		background-size: 0.625rem 1.09375rem;
+	}
+	.mine{
+		background: url('common/imgs/fanke5.jpg') no-repeat;
+		background-size: 0.625rem 1.09375rem;
+	}
+
+/*.homeHeight{
+	height: 23.4375rem;
+}*/
+/*body{
+	height: 31.25rem;
+}*/
+
+/*
+.nav a:nth-of-type(1) span{
+	background: url('common/imgs/fanke1.jpg') no-repeat;
+	background-size: 0.625rem 1.09375rem;
+}
+
+.nav a:nth-of-type(2) span{
+	background: url('common/imgs/fanke2.jpg') no-repeat;
+	background-size: 0.625rem 1.09375rem;
+}
+
+.nav a:nth-of-type(3) span{
+	background: url('common/imgs/fanke3.jpg') no-repeat;
+	background-size: 0.625rem 1.09375rem;
+}
+.nav a:nth-of-type(4) span{
+	background: url('common/imgs/fanke4.jpg') no-repeat;
+	background-size: 0.625rem 1.09375rem;
+}
+.nav a:nth-of-type(5) span{
+	background: url('common/imgs/fanke5.jpg') no-repeat;
+	background-size: 0.625rem 1.09375rem;
+}*/

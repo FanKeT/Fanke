@@ -1,0 +1,60 @@
+
+		<title></title>
+		<link rel="stylesheet" href="car/css/car.css" />
+		<div class="car">
+			<div class="header">
+				<h3><button type="button" name="button" onclick="history.back()"></button>购物车</h3>
+			</div>
+			<div class="item_info" ng-show="flag">
+				<div class="item_btn" >
+					<span>预售商品:</span>
+					<div>
+						<button class="all" ng-click='allChange()' ng-module="change">选择</button>
+						<button class="del">删除</button>
+					</div>
+				</div>
+				<ul>
+					<li ng-repeat='item in data track by $index'>
+						<input type="checkbox" class="check" ng-click="changeIpt()" />
+						<img src="{{item.img}}"/>
+						<p class="title">{{item.name}}</p>						 
+						<p class="price">¥<span>{{item.price}}</span></p>
+						<div class="addBtn">
+							<div class="reduce" ng-click='eq()'></div>
+							<input type="text" value={{item.num}} id="price_inpt" />
+							<div class="plus" ng-click='add()'></div>
+						</div>
+						<!-- <p class="deliveryTime">该商品预计在04月10日发货</p> -->
+						<div class="del_btn" ng-click='delGood()'></div>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="count" ng-show='flag'>
+				<p>需支付:<em>￥</em><span class='pay'>{{allMoney}}</span></p>
+				<p>总金额: ￥<span class='bothMoney'>{{allMoney}}</span>已优惠:<span class='privilege'>0.00</span></p>
+				<div class="countAll">结算(<span class='countNum'>{{ count }}</span>)</div>
+			</div>
+
+			<div class="null" ng-show='flagc'>
+				<div class="null_top">
+					<p>购物车还是空空的,赶紧去选购吧</p>
+				</div>
+				<ul class="sc_ul">
+					<li>我的收藏</li>
+					<li>去逛逛</li>
+				</ul>
+				<div class="tuichu">
+					<p><span></span>|&nbsp;<a href="###">退出</a></p>
+				</div>
+				<ul class="cart_help">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="zheng">
+					<p>京ICP证100557号</p>
+				</div>
+			</div>
+		</div>

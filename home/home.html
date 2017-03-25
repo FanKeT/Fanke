@@ -1,0 +1,138 @@
+
+	<link rel="stylesheet" href="home/css/home.css">
+	<link rel="stylesheet" href="./home/lib/swiper-3.3.1.min.css">
+	
+	<!-- top-bar -->
+	<nav class="top-bar" id='top'>
+			<input type="text" class="top-left" placeholder="穆旦" >
+		<div  class="top-right">
+			<a ui-sref='my'>
+				<img src="home/imgs/msg3.png" alt="msg3">
+			</a>
+		</div>
+	</nav>
+	<!--  -->
+	<div class="content">
+		<!-- slider -->
+		<div class="swiper-container">
+		    <div class="swiper-wrapper" >
+		        <div class="swiper-slide"  ng-repeat="item in arr">
+		        	<img ng-src="{{ item }}" alt="" >
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+	
+		<div class="service">
+			<img src="home/imgs/service.jpg" alt="service">
+		</div>
+		<div class="recharge">
+			<img src="home/imgs/recharge.jpg" alt="recharge">
+		</div>
+		<!-- 新品预售 -->
+		<div class="presell">
+			<img src="home/imgs/presell.jpg" alt="presell">
+		</div>
+		<div class="presell-list">
+			<ul class="presell-list-ul">
+				<li ng-repeat='item in data' ng-click='showDetail()'>
+						<img ng-src="{{item.img}}" alt="" />
+				</li>
+			</ul>
+		</div>
+		<!--更多精品-->
+		<div class="mor-goods">
+			<img src="home/imgs/mor-goods.jpg" alt="mor-goods">
+		</div>
+		<div class="mor-list">
+			<ul class="mor-list-ul">
+				<li>
+					<a href="###">
+						<img src="home/imgs/mor1.jpg" alt="mor" />
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="home/imgs/mor2.jpg" alt="mor" />
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- 超值精选区 -->
+		<div class="choiceness">
+			<img src="home/imgs/choiceness.jpg" alt="choiceness">
+		</div>
+		<div class="choiceness-list">
+			<ul class="choiceness-list-ul">
+				<li>
+					<a href="###">
+						<img src="home/imgs/choiceness1.jpg" alt="mor" />
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="home/imgs/choiceness2.jpg" alt="mor" />
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 韩国购 -->
+		<div class="Korea">
+			<img src="home/imgs/Korea.jpg" alt="Korea">
+		</div>
+		<div class="Korea-banner">
+			<img src="home/imgs/KoreaBanner.jpg" alt="">
+		</div>
+		<div class="Korea-list">
+			<ul class="Korea-list-ul">
+				<li>
+					<a href="###">
+						<img src="home/imgs/Korea1.jpg" alt="mor" />
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="home/imgs/Korea2.jpg" alt="mor" />
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="home/imgs/Korea3.jpg" alt="mor" />
+					</a>
+				</li>
+				<li>
+					<a href="###">
+						<img src="home/imgs/Korea4.jpg" alt="mor" />
+					</a>
+				</li>
+			</ul>
+		</div>
+		<span class="load-all"><p>已加载全部</p></span>
+	</div>
+	<div class="searchPage">
+		<div class="search_top">
+			<h3>热搜</h3>
+			<ul>
+				<li><a href="###">穆旦</a></li>
+				<li><a href="###">T恤</a></li>
+				<li><a href="###">POLO</a></li>
+				<li><a href="###">衬衫</a></li>
+				<li><a href="###">皮肤衣</a></li>
+			</ul>
+			<div class="search_bottom">
+				<h3>历史搜索</h3>
+				<input type="button" value="清除历史" />
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 返回顶部 -->
+		<a id="goTop" ><img src="home/imgs/goTop.gif" onclick="body.scrollTop = 0"></a>
+
+		
+
+	
+	

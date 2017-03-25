@@ -1,0 +1,18 @@
+
+	<link rel="stylesheet" href="goodDetail/css/details-one.css">
+	<div class="header">
+				<h3><button type="button" name="button" onclick="history.back()"></button>商品详情</h3>
+			</div>
+	
+	<!-- content -->
+	<div class="good">
+		<img src="{{id.img}}">
+		<p>{{id.name}}</p>
+		<p>{{id.price}}</p>
+	</div>
+	<div class="addCart">
+		<div class="cartCount">
+			<a ui-sref='car'><span>{{count}}</span></a>
+		</div>
+		<input type="button" value="加入购物车" ng-click='addGood()' />
+	</div>

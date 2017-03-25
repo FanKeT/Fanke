@@ -1,0 +1,85 @@
+.header{
+	width: 100%;
+	height: 1.25rem;
+	background: #b81c22;
+	color: #fff;
+	line-height: 1.25rem;
+
+}
+
+.header h3 button{
+	left: 0.48125rem;
+	font-size: 0.7625rem;
+	border: none;
+	display: inline-block;
+	width: 0.625rem;
+	height: 0.75rem;
+	background: url(/classify/img/left1.jpg) no-repeat;
+	background-size: 0.421875rem 0.6875rem;
+	float: left;
+	margin: 0.3125rem 3.203125rem 0 0.592593rem;
+	border: none;
+}
+/*box*/
+.good{
+	width: 10.0rem;
+	height: 10.390625rem;
+	margin-top: 1.296296rem;
+	border-bottom: 0.015625rem solid #cccccc;
+}
+.good img{
+	width: 7.96875rem;
+	height: 7.96875rem;
+	margin: 0.15625rem 0 0 1.03125rem;
+}
+
+.good p{
+	width: 10.0rem;
+	height: 0.9375rem;
+	line-height: 0.9375rem;
+	text-indent: 1.171875rem;
+	font-size: 0.34375rem;
+}
+
+.addCart{
+	width: 10.0rem;
+	height: 1.0rem;
+	border-top: 0.03125rem solid #999999;
+	display: flex;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+}
+.addCart .cartCount{
+	width: 5.0rem;
+	height: 0.96875rem;
+	float: left;
+	background: url('../imgs/cart1.jpg') no-repeat center center;
+	background-size: 0.640625rem 0.640625rem;
+	position: relative;
+}
+
+.addCart .cartCount span{
+	display: inline-block;
+	width: 0.265625rem;
+	height: 0.328125rem;
+	background-color: #b81c22;
+	border-radius: 0.125rem;
+	line-height: 0.328125rem;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 2.65625rem;
+	top: 0.03125rem;
+
+}
+
+.addCart input{
+	width: 5.0rem;
+	height: 0.96875rem;
+	background-color: #b81c22;
+	border: none;
+	outline: none;
+}

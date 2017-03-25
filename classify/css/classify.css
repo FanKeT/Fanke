@@ -1,0 +1,65 @@
+.header{
+	width: 10.0rem;
+	height: 1.25rem;
+	background-color: #b81c22;
+	text-align: left;
+	line-height: 1.25rem;
+	border-bottom: 0.0625rem solid #cacaca;
+	color: #fff;
+}
+.header h3 span{
+	display: inline-block;
+	width: 0.75rem;
+	height: 0.75rem;
+	float: left;
+	font-size: 0.75rem;
+	margin: 0.3125rem 3.203125rem 0 0.592593rem;
+	background: url('/classify/img/left1.jpg') no-repeat;
+	background-size: 0.421875rem 0.6875rem;
+	
+}
+.item{
+	height: 15.08125rem;
+}
+/*主体左*/
+.item .item_name{
+	width: 2.59375rem;
+	height: 18.75rem;
+	background-color: #d6dadd;
+	float: left;
+}
+.item .item_name li{
+	width: 2.59375rem;;
+	height: 1.1875rem;
+	text-align: center;
+	line-height: 1.1875rem;
+	border-bottom: 0.03125rem solid white;
+}
+.item .item_name .active{
+	background: #fff;
+}
+
+.item{
+	overflow-y:scroll; 
+}
+/*主体右*/
+.item .item_info{
+	width: 7.2375rem;
+	height: 18.75rem;
+	float: left;
+}
+
+
+/*tab切换颜色*/
+
+.tab{
+	background-color: white;
+	color: red;
+}
+
+
+
+.bg2{
+	background:url(../../common/imgs/active2.jpg);
+	background-size: 0.625rem 1.09375rem;
+}
